@@ -64,6 +64,9 @@ public class TwitterTest
 			
 			
 			// Get friends
+			// System.out.println("Showing Friend Information.");
+			
+			
 			System.out.println("Showing Friend Information.");
 			long friendCursor = -1;
 			IDs friendIDs;
