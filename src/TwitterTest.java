@@ -17,7 +17,7 @@ public class TwitterTest
 			Twitter twitter = new TwitterFactory(cf.build()).getInstance();
 			User user = twitter.verifyCredentials(); // Get main user
 			
-			
+			//tester code
 			// Print user Data
 			System.out.println("----Profile Data----");
 			System.out.println("USERNAME: @" + user.getScreenName());
@@ -26,7 +26,7 @@ public class TwitterTest
 			System.out.println("URL: " + user.getProfileImageURL());
 			System.out.println("FRIENDS: "+ user.getFriendsCount() + "friends.");
 			System.out.println("-----------");
-			
+			//tester code
 			
 			// Print Timeline
 			List<Status> statuses = twitter.getHomeTimeline();
